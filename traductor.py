@@ -15,18 +15,19 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("TRADUCTOR.")
-st.subheader("Escucho lo que quieres traducir.")
+st.title("TRADUCTOOOOOOOOOOOOOOOOOOOR")
+st.subheader("Escucho lo que quieres traducir. A veces los turistas son los que me piden que lo salve.")
 
 
 image = Image.open('ohnooo.jpg')
 
 st.image(image,width=300)
 with st.sidebar:
-    st.subheader("Traductor.")
-    st.write("Presiona el botón, cuando escuches la señal "
+    st.subheader("FNSM Traductor:")
+    st.write("Presiona el botón, cuando escuches o veas la señal "
                  "habla lo que quieres traducir, luego selecciona"   
-                 " la configuración de lenguaje que necesites.")
+                 " la configuración de lenguaje que necesites. "
+            " cada vez tratamos de ampliar nuestro catálogo de idiomas :)")
 
 
 st.write("Toca el Botón y habla lo que quires traducir")
@@ -106,7 +107,7 @@ if result:
         output_language = "ja"
     
     english_accent = st.selectbox(
-        "Selecciona el acento",
+        "Selecciona el acento (porque no a todos nos gusta el español de España :'>)",
         (
             "Defecto",
             "Español",
