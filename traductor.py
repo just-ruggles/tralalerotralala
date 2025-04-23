@@ -27,7 +27,7 @@ with st.sidebar:
     st.write("Presiona el botón, cuando escuches o veas la señal "
                  "habla lo que quieres traducir, luego selecciona"   
                  " la configuración de lenguaje que necesites. "
-            " cada vez tratamos de ampliar nuestro catálogo de idiomas :)")
+            " Cada vez tratamos de ampliar nuestro catálogo de idiomas :)")
 
 
 st.write("Toca el Botón y habla lo que quires traducir")
