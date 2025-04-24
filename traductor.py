@@ -15,15 +15,30 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("TRADUCTOOOOOOOOOOOOOOOOR")
-st.subheader("Escucho lo que quieres traducir. A veces los turistas son los que me piden que los salve ;)")
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://wallpapers.com/images/hd/black-carbon-fiber-1biekffyzs37csto.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
+st.markdown('<h1 style="color:red;">TRADUCTOOOOOOOOOOOOOOOOR</h1>', unsafe_allow_html=True)
+st.markdown('<h3 style="color:blue;">Escucho lo que quieres traducir. A veces los turistas son los que me piden que los salve ;)</h3>', unsafe_allow_html=True)
 
 
 image = Image.open('ohnooo.jpg')
 
 st.image(image,width=300)
 with st.sidebar:
-    st.subheader("FNSM Traductor:")
+    st.markdown('<h3 style="color:blue;">FNSM Traductor:</h3>', unsafe_allow_html=True)
     st.write("Presiona el botón, cuando escuches o veas la señal "
                  "habla lo que quieres traducir, luego selecciona"   
                  " la configuración de lenguaje que necesites. "
